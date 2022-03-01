@@ -1,0 +1,162 @@
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/* 100% = 16px = 1em */
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted 8px #EAF6F6;
+  border-bottom-style: none;
+  width: 6%;
+  margin: 100px auto;
+
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #33cccc;
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.personal-description {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+
+}
+
+.pitch {
+  text-align: center;
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0 0 0;
+}
+
+.web-design-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.plant-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.top-container {
+  background-color: #E4F9F5;
+  position:relative;
+  display: block;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position:relative;
+  display: block;
+  width: 100%;
+  padding: 50px 0 16px;
+}
+
+
+
+/*
+.web-design-description {
+  clear:left;
+}
+
+.plant-description {
+  clear: right
+}
+*/
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud-1 {
+  position:absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-img {
+  width: 150px;
+}
